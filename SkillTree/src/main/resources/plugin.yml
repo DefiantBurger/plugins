@@ -1,0 +1,21 @@
+name: SkillTree
+version: ${project.version}
+main: com.defiantburger.skilltree.SkillTree
+api-version: 1.17
+authors: [ DefiantBurger ]
+description: A skill tree plugin.
+depend: [NBTAPI]
+commands:
+  skills:
+    description: Skill viewing and editing commmand.
+    usage: /<command>
+permissions:
+  skills.view:
+    default: true
+    description: Permission to view skills.
+  skills.edit:
+    default: true
+    description: Permission to edit skills normally.
+  skills.editop:
+    default: op
+    description: Permission to edit skills as operator.
