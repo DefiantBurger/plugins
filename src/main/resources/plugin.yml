@@ -1,0 +1,10 @@
+name: HardcoreTweaks
+version: '${project.version}'
+main: com.defiantburger.hardcoretweaks.HardcoreTweaks
+api-version: 1.17
+authors: [ DefiantBurger ]
+description: A plugin that adds some features to hardcore.
+commands:
+  lives:
+    description: Set or get the amount of lives of a certain player.
+    usage: /<command> <set/get> <player> [amount]
